@@ -1,8 +1,8 @@
 #write your code here
 def countdown
-  counter = 1
+  number = 1
   while counter <= 10
-  puts "#{counter} 8 to go"
+  puts "#{counter}"
   break if counter == 3
   counter -= 1
   end
